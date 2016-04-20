@@ -1,0 +1,19 @@
+{
+    "name": "letsencrypt-client-example",
+    "version": "1.0.0",
+    "description": "Let's Encrypt ACME client example",
+    "keywords": ["letsencrypt", "lets", "encrypt", "acme"],
+    "author": "Quentin Adam <quentinadam@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/quentinadam/node-letsencrypt-client-example.git"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "co": "^4.6.0",
+        "express": "^4.13.4",
+        "letsencrypt-client": "^1.0.1"
+    },
+    "engines": {"node": ">=4.0"}
+}
